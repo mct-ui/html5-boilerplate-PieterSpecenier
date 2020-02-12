@@ -93,7 +93,7 @@ ol{
 blockquote {
     font-style: italic;
     font-size: 23px;
-    line-height: 23;
+    line-height: 23px;
     margin: 0 0 24px;
     font-family: "Times New Roman", serif;
 }
@@ -136,4 +136,42 @@ a:focus {
     color: crimson;
 }
 
+/*
+    Media Queries
+    ---
+    EXAMPLE Media Queries for Responsive Design.
+    These examples override the primary ('mobile first') styles.
+    Modify as content requires.
+*/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1{
+        font-size: 58px;
+        line-height: 64px;
+    }
+    html {
+        padding: 48px 48px 24px;
+    }
+}
+
+/* Large devices (landscape tablets, desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
 
